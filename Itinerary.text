@@ -1,0 +1,30 @@
+Task3
+	
+	Customized Itinerary: Design a travel itinerary for a friend who has different preferences than you. How would you ensure that your base plan (OOP) can be adapted to fit their needs (Design Principles)?
+
+Single responsibility principle
+
+	    When we travel to another country, they check visa requirements and language needs, but the applicability of luggage is only checked once
+
+        Closed (Base Plan): This means you keep your original travel plan as it is, just like a story in a book that you can't change. It stays the same, and you don't touch it.
+
+Liskov
+        Based on travel  like superclass . it work well for travel and very comfortable 
+
+        Sub class  this also  based on travel but some extend or modifies 
+
+        But travel  is same something is modify  superclass to  subclass 
+
+Interface
+
+        It depends on your personal preferences. If you enjoy traveling, you will go; if not, you won't.
+
+        Dependency management
+        It depend the friend plan depend  in travel  what to do  and how to do 
+        High level low dependency
+            These are like the big puzzle  it will choose  which city  to visit  city depend on city
+
+Low-Level Dependencies: 
+    
+    These are like the small puzzle  it will choose  which museum  to visit  city depend on museum
+
