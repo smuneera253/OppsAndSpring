@@ -1,0 +1,28 @@
+
+Task4
+
+Customized Itinerary: Design a travel itinerary for a friend who has different preferences than you. How would you ensure that your base plan (OOP) can be adapted to fit their needs (Design Principles)?
+
+Encapsulation:
+		
+		I plan to visit Switzerland  for the trip. I keep this list organized and  private with a plane . If I want to add something  it is helpful for me to add or remove.
+
+Inheritance:
+
+        First I think  I will visit Switzerland but I have a basic vacation plan that includes a destination and activities. Now I have created a special  plan just  for america.
+         But  I started a basic plan .This way America's plan is also very important  for visiting.
+
+polymorphism 
+
+	Treat both plans the same way. Whether it's the basic plan or america plan, you can use them without worrying about the differences.
+
+Single Responsibility:
+        ocuses on general vacation stuff, like destinations and dates. The American  plan should only handle what's special for her, like adding hiking or art gallery visits.
+
+Dependency Management:
+        When I add something to the plan, make sure it doesn't mess up the rest of the trip. If I plan to go hiking, it shouldn't affect the plans for other activities.
+
+
+Open/Closed Principle: i can customize the plans as much as you want without changing the core structure. The basic plan stays the same, and you add to it for American preferences.
+
+
