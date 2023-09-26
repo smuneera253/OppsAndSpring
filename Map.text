@@ -1,0 +1,38 @@
+question ?Map Creation: Think of a real-world system, like a library or a shopping mall. How would you model it using OOP concepts? What are the objects, their attributes, and behaviors? How do they interact?
+
+
+Encapsulation 
+	
+ 	Encapsulation library means putting all the information or it is a container  it holds that is securing data .Similarly, the library  also has one container. We can use different class book  blueprints for the library. 
+
+Class:
+		The library class represents the overall library system. It can have the following attributes and behaviors:
+
+Attribute
+		name: The name of the library.
+        address: The physical address of the library.
+        books: A collection of book objects available in the library.
+        librarians: A list of librarian objects managing the library.
+        patrons: A list of patron objects who visit the library.
+
+
+Book Class:
+	
+	 	Book details book title Book name author name,
+Member Class: 
+	Represent  the library member  name ID .The member can return the book.
+
+Inheritance
+
+	Imagine there different types of books in the library like fiction and nonfiction. It is called inheritance.
+
+Abstraction
+	In a library  abstraction means making things easy. Instead of diving into all the  complicated details. But  we will go straightforward like  borrowing a book and returning the book. Abstraction hides all the tricky parts.
+
+Polymorphism 
+
+	Let's make  comedy books  different, different  comedy  books and authors also different.
+Each comedy book can  be represented as an object of the Comedy book” class
+
+The  comedy book class can have a common method called  “Make Laugh().this method part of each comedy book. 
+
