@@ -1,0 +1,20 @@
+
+2.question? Journey Extension: Imagine extending your Swiss journey to neighboring countries. How would you adapt your travel checklist? Relate this to the concept of inheritance and polymorphism in software design.
+
+Inheritance
+When  I Am going to Embarking  on a swiss journey to saudi arabia but  i created an important or original details swiss checklist . it can be considered  as a parent checklist.  
+
+
+Passport
+    Swiss hiking gear
+    Swiss  travel guidebook
+    Swiss sim card
+    Shoes and clothes
+
+
+Travel checklist (switzerland  visiting) Child 
+Add new item like that particular  place guidebook
+And clothes and shoes but based on season.
+Polymorphism
+	
+In travel  checklists  polymorphism could be applied  when you have common action, like packing luggage which can behave differently  for each  destination and specific checklist. Based on culture and season  etc.
